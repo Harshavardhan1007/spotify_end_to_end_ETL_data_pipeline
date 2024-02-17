@@ -4,7 +4,7 @@
 In this project, we will build as ETL (Extract, Transform, Load) pipeline using the spotify API on AWS. The pipeline will recieve data from the spotify API, transform it to a desired format, and load it into an AWS data store.
 
 ### Architecture
-![Architecture Diagram](https://myoctocat.com/assets/images/base-octocat.svg)
+![Architecture Diagram](https://github.com/Harshavardhan1007/spotify_end_to_end_ETL_data_pipeline/blob/main/spotify_data_pipeline_Architecture.jpg)
 
 ### Project Execution Flow
 Etract Data from API -> Lambda Trigger (every 1 day) -> Run Extract Code -> Store Raw Data -> Trigger Transform Function -> Transform Data and Load it -> Query Using Athena 
